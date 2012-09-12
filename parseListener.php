@@ -9,12 +9,12 @@ file_put_contents($file, $contents, FILE_APPEND);
 $num_dice = (int)$_REQUEST["text"];
 
 $img = array();
-$img[] = '<img src="http://dev.brandonmwest.com/dice1.png" />';
-$img[] = '<img src="http://dev.brandonmwest.com/dice2.png" />';
-$img[] = '<img src="http://dev.brandonmwest.com/dice3.png" />';
-$img[] = '<img src="http://dev.brandonmwest.com/dice4.png" />';
-$img[] = '<img src="http://dev.brandonmwest.com/dice5.png" />';
-$img[] = '<img src="http://dev.brandonmwest.com/dice6.png" />';
+$img[] = '<img src="dice1.png" />';
+$img[] = '<img src="dice2.png" />';
+$img[] = '<img src="dice3.png" />';
+$img[] = '<img src="dice4.png" />';
+$img[] = '<img src="dice5.png" />';
+$img[] = '<img src="dice6.png" />';
 
 $text = "Rolled " . $num_dice . " dice.";
 $html = "<h1>" . $text . "</h1>";
