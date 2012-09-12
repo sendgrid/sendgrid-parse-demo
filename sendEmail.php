@@ -3,8 +3,8 @@ require_once "lib/swift_required.php";
 
 // Login credentials
 // Set these to match your SendGrid.com account
-$username = 'brandon.west@sendgrid.com';
-$password = 's3ndgr1d';
+$username = 'sendgrid_username';
+$password = 'sendgrid_password';
  
 // Setup Swift mailer parameters
 $transport = Swift_SmtpTransport::newInstance('smtp.sendgrid.net', 587);
